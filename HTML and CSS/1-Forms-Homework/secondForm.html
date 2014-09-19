@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>04.Bookche</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="./styles/style-4.css">
+</head>
+<body>
+	<div id="container">
+		<h1>Bookche<sup>&reg;</sup></h1>
+		<h2>Registration</h2>
+		<h3>It is safe and it will always be!</h3>
+		<div id="regForm" class="left">
+			 <legend>None-Important Information</legend>
+		<form  action="register.php" method="post"> 
+			<input id="inputRows" class="leftBox" type="username" name="FirstName" placeholder="&nbsp;First Name" >
+			<input id="inputRows" class="leftBox" type="username" name="LastName" placeholder="&nbsp;Last Name" />
+				<br />
+			<input id="inputRows" class="leftBox" type="email" name="email" placeholder="&nbsp;Enter your email" />
+			<input id="inputRows" class="leftBox" type="email" name="phone" placeholder="&nbsp;Enter your phone" />
+				<br />
+			<input id="inputRows" class="leftBox" name="password" type="password" placeholder="&nbsp;Enter your password" /> 
+			<input id="inputRows" class="leftBox" name="text" type="url" placeholder="&nbsp;Web site" /> 
+				<br />
+			<p><font color="#fff"> Birthday</label>
+			<input class="calendarBox" type="datetime-local" name="bdaytime" required="required" />
+				<br />
+			<div class="radio">  
+			    <input id="male" type="radio" name="gender" value="male" />  
+			    <label for="male">Male</label>  
+			    <input id="female" type="radio" name="gender" value="female" />  
+			    <label for="female">Female</label>  
+			    <input id="shemale" type="radio" name="gender" value="Shemale" />  
+			    <label for="female">Shemale</label>  
+			</div>  
+			</div>
+				<div id="login" class="right">
+					<div id="regFormRequiered">
+					    <legend>Important information *required</legend>
+							<br />
+							<select class="firstRow">
+								<option >Country</option>
+								<option value="BG">BG</option>
+								<option value="GB">GB</option>
+								<option value="US">US</option>
+								<option value="RUS">RUS</option>
+								<option value="GER">GER</option>
+								<option value="GRE">GRE</option>
+							</select> 
+							<input id="inputRows" class="firstRow" type="text" name="villige"  required="required" placeholder="&nbsp;Villige" autofocus/>
+							<input id="inputRows" class="firstRow" name="text" required="required" type="text" placeholder="&nbsp;District" /> 
+							<br />
+							<input id="inputRows" class="scndRowDDmenu" type="text" name="street"  required="required" placeholder="&nbsp;Street" />
+							<input id="inputRows" class="scndRow" type="text" name="number"  required="required" placeholder="&nbsp;Number" />
+							<input id="inputRows" class="scndRow" type="text" name="floor"  required="required" placeholder="&nbsp;Floor" />
+							<input id="inputRows" class="scndRow" type="text" name="homeNumb"  required="required" placeholder="&nbsp;Home numb" />
+							<br />
+				    		<label for="doorColor">Door Color</label>
+				    		<br />
+							<input class="thdRow" type="color" name="doorColor" value="blue">
+							<input id="inputRows" class="thdRow" type="text" name="WaterMaterNumb"  required="required" placeholder="&nbsp;Water Mater Numb" />
+							<select class="thdRow">
+								<option>Aunt Panties'Size</option>
+								<option value="Size1">Size1</option>
+								<option value="Size2">Size2</option>
+								<option value="Size3">Size3</option>
+								<option value="Size4">Size4</option>
+								<option value="Size5">Size5</option>
+								<option value="Size6">Size6</option>
+							</select> 
+							<br />
+							<textarea rows="5" cols="45" maxlength="255">Enter text here...</textarea>
+					</div>
+				</div>
+				<div id="buttons">
+					<input id="clearbtn" type="reset" value="Clear form" />
+					<input id="regbtn" type="submit" value="Register" /> 
+				</div>
+			</div>
+	</form>
+</body>
+</html>

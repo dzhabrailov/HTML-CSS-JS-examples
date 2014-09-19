@@ -1,0 +1,105 @@
+body {
+   width: 0 auto;
+   min-height: 300px;
+   font-family: "Tahoma";
+}
+h1 {
+	margin-left: 10px;
+	color: #234465;
+}
+span {
+	margin-left: 10px;
+	color: #949494;
+}
+
+#container {
+	width: 750px;
+	min-height: 400px;
+	background-color: #EDEEEF;
+	border-radius: 5px;
+	box-shadow: 0 0 10px -2px #000;
+}
+form {
+	margin-left: 10px;
+
+}
+
+input {
+	margin-top: 10px;
+	color: #949494;
+	font-weight: bold;
+}
+
+
+p {
+    color: #949494;
+    margin-left: 20px;
+}
+
+
+#inputRows {
+	width: 335px;
+	height: 25px;
+	border: 2px solid #d1d1d1;
+	box-shadow: 0 0 3px -2px #000;
+}
+
+#regForm {
+	display: inline-block;
+	width: 350px;
+	height: 220px;
+	float: left;
+	margin-left: 10px;
+}
+
+#regbtn {
+ 	background-color: transparent;
+    border: 2px solid #335270;
+    color: #335270;
+    float: right;
+    font-weight: bold;
+    height: 27px;
+    width: 150px;
+}
+
+/* LOGIN */
+#login > span {
+	color: #fff;
+}
+
+#login {
+	display: inline-block;
+	width: 360px;
+	height: 220px;
+	float: right;
+	background-color: rgba(35, 68, 101, 0.92);
+	margin-right: 10px;
+	color: #fff;
+}
+
+#loginbtn {
+    background: none repeat scroll 0 0 transparent;
+    border: 2px solid #ffaa00;
+    float: right;
+    height: 27px;
+    font-weight: bold;
+    margin-right: 10px;
+    width: 150px;
+	color: #fff;
+
+}
+
+.change_link {
+    clear: both;
+    color: #fff;
+    float: right;
+    font-size: 8pt;
+    margin-right: 10px;
+}
+a:hover {
+	color: #ffaa00;
+}
+
+.remember {
+	font-size: 9pt;
+}

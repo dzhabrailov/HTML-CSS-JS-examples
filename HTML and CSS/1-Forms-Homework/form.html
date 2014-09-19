@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>01.Simple Form</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="./styles/style-1.css">
+</head>
+<body>
+	<div id="container">
+		<h1> Enter the system </h1>
+		<p>It is necessary to login in Your account in order to sign in for a course</p>
+		<div id="regForm" class="left">
+			<span><strong>ARE YOU NEW? <font color="#234465">REGISTER!</font></strong></span><form  action="register.php" method="post">
+					<input id="inputRows" class="username" type="username" name="username" placeholder="&nbsp;User Name"/>
+				<br />
+					<input id="inputRows" class="email" type="email" name="email" placeholder="&nbsp;Enter your email" />
+				<br />
+					<input id="inputRows" class="password" name="password" required="required" type="password" placeholder="&nbsp;Password" /> 
+				<br />
+					<input id="inputRows" class="password" name="password" required="required" type="password" placeholder="&nbsp;Confirm Password" /> 
+				<br />
+					<input id="regbtn" type="submit" value="Register" />
+			</form>
+		</div>
+		<div id="login" class="right">
+		<br />
+			<span class="LoginHead"><strong>ALREADY A STUDENT? LOGIN</strong></span> 
+				<form  action="login.php" method="post"> 
+					<input id="inputRows" class="username" type="username" name="username"  required="required" placeholder="&nbsp;User Name" autofocus/>
+				<br />
+					<input id="inputRows" class="password" name="password" required="required" type="password" placeholder="&nbsp;Password" /> 
+				<br />
+					<input class="keeplogin" type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+				<label class="remember" for="loginkeeping"><sup>Remebmer me?</sup></label>
+				<br />
+					<input id="loginbtn" type="submit" value="Login" /> 
+				<br />
+					<a class="change_link" href="#forgotpass">Forgot password</a>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
